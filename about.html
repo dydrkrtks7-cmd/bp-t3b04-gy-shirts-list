@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문래 클럽 시간대 선택 — 오픈 시간과 분위기별 완벽한 타이밍 가이드</title>
+    <meta name="description" content="문래동 클럽의 오픈 시간, 피크 타임, 이벤트 시간대별 분위기를 상세히 비교 분석합니다. 방문 전 꼭 확인해야 할 시간대별 특징과 이용 조건을 안내합니다.">
+    <meta name="keywords" content="문래 클럽, 문래동 클럽, 클럽 시간대, 문래 클럽 시간, 문래 클럽 오픈 시간, 문래 클럽 추천 시간, 문래 클럽 피크 타임, 문래 클럽 이벤트 시간">
+    <link rel="canonical" href="https://mullae-club-note.go-hapjeong-club.xyz/time-guide">
+    <meta property="og:title" content="문래 클럽 시간대 선택 — 오픈 시간과 분위기별 완벽한 타이밍 가이드">
+    <meta property="og:description" content="문래동 클럽의 오픈 시간, 피크 타임, 이벤트 시간대별 분위기를 상세히 비교 분석합니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mullae-club-note.go-hapjeong-club.xyz/time-guide">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap');
+        :root {
+            --bg-main: #0a0a0c;
+            --text-primary: #f0f0f0;
+            --text-secondary: #a0a0a0;
+            --accent: #00ffcc;
+            --accent-dark: #00cc99;
+            --border: #2a2a2e;
+            --surface: #121214;
+            --surface-hover: #1a1a1e;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        .v-hero-rs5h {
+            min-height: 300px;
+            padding: 80px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--bg-main) 0%, var(--surface) 100%);
+            border-bottom: 1px solid var(--border);
+        }
+        .v-hero-rs5h h1 {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        .v-hero-rs5h .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            line-height: 1.8;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            background: rgba(10, 10, 12, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem 2rem;
+        }
+        .r-nav-joxc-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .r-nav-joxc-inner .logo {
+            font-family: 'Noto Serif KR', serif;
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: var(--accent);
+        }
+        .t-list-vhx4 {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        .t-list-vhx4 a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+        .t-list-vhx4 a:hover {
+            color: var(--accent);
+        }
+        .v-box-zx3l {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .v-box-zx3l a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .hamburger-menu {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .hamburger-menu span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            background: var(--text-primary);
+            margin: 6px 0;
+            transition: 0.3s;
+        }
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 12, 0.98);
+            border-bottom: 1px solid var(--border);
+            padding: 1rem;
+            z-index: 99;
+        }
+        .mobile-nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        .mobile-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 1.1rem;
+            display: block;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .mobile-nav a:last-child {
+            border-bottom: none;
+        }
+        @media (max-width: 768px) {
+            .t-list-vhx4 {
+                display: none;
+            }
+            .hamburger-menu {
+                display: block;
+            }
+            .mobile-nav.active {
+                display: block;
+            }
+            .v-hero-rs5h h1 {
+                font-size: 1.8rem;
+            }
+            .v-box-zx3l {
+                padding: 3rem 1.5rem;
+            }
+        }
+        .info-section {
+            margin-bottom: 3rem;
+        }
+        .info-section h2 {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 1.6rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .time-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: background 0.3s ease;
+        }
+        .time-card:hover {
+            background: var(--surface-hover);
+        }
+        .time-card h3 {
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .time-card h3 .time-badge {
+            font-size: 0.8rem;
+            background: rgba(0, 255, 204, 0.1);
+            color: var(--accent);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 500;
+        }
+        .time-card p {
+            color: var(--text-secondary);
+            margin-bottom: 0.8rem;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        .time-card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .time-card .feature-tag {
+            font-size: 0.8rem;
+            background: var(--surface-hover);
+            color: var(--text-secondary);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: var(--surface);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .comparison-table th {
+            background: var(--surface-hover);
+            font-weight: 600;
+            color: var(--accent);
+        }
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        .comparison-table td {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        .advice-box {
+            background: linear-gradient(135deg, rgba(0, 255, 204, 0.05) 0%, rgba(0, 204, 153, 0.02) 100%);
+            border: 1px solid rgba(0, 255, 204, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .advice-box h3 {
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        .advice-box ul {
+            padding-left: 1.5rem;
+        }
+        .advice-box li {
+            margin-bottom: 0.8rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 3rem 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        footer .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+        footer .footer-links a:hover {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="r-nav-joxc-inner">
+            <div class="logo">문래 클럽 노트</div>
+            <nav>
+                <ul class="t-list-vhx4">
+                    <li><a href="/guide">이용 안내</a></li>
+                    <li><a href="/time-guide">시간대 선택</a></li>
+                    <li><a href="/faq">자주 묻는 질문</a></li>
+                    <li><a href="/contact">문의하기</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <div class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="/guide">이용 안내</a></li>
+            <li><a href="/time-guide">시간대 선택</a></li>
+            <li><a href="/faq">자주 묻는 질문</a></li>
+            <li><a href="/contact">문의하기</a></li>
+        </ul>
+    </div>
+    <div class="v-hero-rs5h">
+        <h1>문래 클럽 시간대 선택<br>타이밍이 곧 분위기다</h1>
+        <p class="subtitle">언제 갈지가 뭐 얼마나 중요한지 아는 사람이라면 이 페이지를 읽고 있을 거야. 문래동 클럽마다 오픈 시간도, 피크 타임도, 심지어 같은 클럽 내부의 분위기도 시간에 따라 확 달라져.</p>
+    </div>
+    <div class="v-box-zx3l">
+        <div class="info-section">
+            <h2>기본 오픈 시간과 운영 패턴</h2>
+            <p style="margin-bottom: 1.5rem;">대부분의 문래동 클럽은 저녁 늦게 문을 열어. 보통 <strong>밤 10시에서 11시 사이</strong> 오픈하고, 새벽 4시에서 6시까지 운영하는 게 일반적이야. 근데 이건 시작일 뿐이지, 진짜 승부는 그 이후야.</p>
+            <div class="time-card">
+                <h3>
+                    오프 타임 (10PM - 12AM)
+                    <span class="time-badge">초반</span>
+                </h3>
+                <p>클럽이 막 문을 열었을 때. 음악은 아직 잔잔하고, 사람도 적어서 주로 친구 몇 명이서 편하게 술 마시며 대화하기 좋아. 뭔가 분위기 잡고 싶을 때, 혹은 웨이트 없이 바로 입장하고 싶으면 이 시간을 노려봐.</p>
+                <div class="features">
+                    <span class="feature-tag">적은 인원</span>
+                    <span class="feature-tag">편한 대화</span>
+                    <span class="feature-tag">웨이트 없음</span>
+                    <span class="feature-tag">초기 분위기 형성</span>
+                </div>
+            </div>
+            <div class="time-card">
+                <h3>
+                    피크 타임 (12AM - 3AM)
+                    <span class="time-badge">절정</span>
+                </h3>
+                <p>클럽의 본질을 경험하고 싶다면 이 시간대야. DJ가 본격적으로 세트를 시작하고, 조명과 음향이 최고조에 달해. 인원도 꽉 차고 에너지가 넘쳐서 춤추고 즐길 준비가 됐다면 이 타이밍이 딱이지. 다만 웨이트가 길거나 입장 제한이 있을 수 있으니 참고!</p>
+                <div class="features">
+                    <span class="feature-tag">최고 에너지</span>
+                    <span class="feature-tag">인원 붐비음</span>
+                    <span class="feature-tag">DJ 완전체 세트</span>
+                    <span class="feature-tag">웨이트 가능성</span>
+                </div>
+            </div>
+            <div class="time-card">
+                <h3>
+                    클로징 타임 (3AM - 5AM+)
+                    <span class="time-badge">마무리</span>
+                </h3>
+                <p>피크가 지나고 나면 분위기가 조금씩 바뀌어. 인원이 빠지면서 상대적으로 여유로워지고, 음악도 좀 더 여유롭거나 하드한 장르로 갈 수 있어. 뭔가 음악에 집중하고 싶거나, 소수의 사람들과 더 특별한 경험을 하고 싶을 때 괜찮은 시간대야.</p>
+                <div class="features">
+                    <span class="feature-tag">상대적 여유</span>
+                    <span class="feature-tag">음악 몰입</span>
+                    <span class="feature-tag">소규모 분위기</span>
+                    <span class="feature-tag">피크 이후</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>시간대별 분위기 비교표</h2>
+            <p style="margin-bottom: 1.5rem;">한눈에 비교할 수 있게 정리해봤어. 네가 원하는 경험에 맞춰 골라봐.</p>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>시간대</th>
+                        <th>인원 밀도</th>
+                        <th>음악 스타일</th>
+                        <th>적합한 사람</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>초반 (10-12시)</td>
+                        <td>여유로움</td>
+                        <td>초반 세팅, 하우스/테크노 위주</td>
+                        <td>대화와 분위기 중시하는 이</td>
+                    </tr>
+                    <tr>
+                        <td>피크 (12-3시)</td>
+                        <td>혼잡함</td>
+                        <td>본격적, 하드한 장르 혼합</td>
+                        <td>에너제틱하게 놀고 싶은 이</td>
+                    </tr>
+                    <tr>
+                        <td>클로징 (3-5시+)</td>
+                        <td>다소 여유</td>
+                        <td>집중형, 하드코어/테크노</td>
+                        <td>음악 몰입, 소규모 그룹</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="info-section">
+            <h2>이벤트 시간대 특별 노트</h2>
+            <p>기본 운영 시간 외에 특별 이벤트나 파티가 있을 때는 시간이 완전히 달라져. <strong>주말이나 공휴일 전날</strong>에는 이벤트가 많고, 이 경우 오픈 시간이 앞당겨지거나 피크 타임이 길어지는 경우가 많아. 특히 <strong>금요일 밤</strong>은 대부분의 클럽이 만석이 되니까, 이벤트가 있다면 사전 확인은 필수야.</p>
+            <div class="advice-box">
+                <h3>⏰ 이벤트 시간 확인 팁</h3>
+                <ul>
+                    <li>클럽 공식 SNS(인스타그램, 페이스북)를 꼭 확인해. 이벤트 날짜와 시간은 자주 업데이트되거든.</li>
+                    <li>예매나 RSVP가 필요한 이벤트도 있으니, 관심 있는 이벤트가 있으면 미리 알아봐.</li>
+                    <li>특별 이벤트는 주제별로 분위기가 확 달라져. 예를 들어 '레트로 나이트'와 '테크노 세션'은 완전히 다른 세계야.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>방문 전 꼭 확인해야 할 것들</h2>
+            <p>타이밍도 중요하지만, 그에 못지않게 중요한 것들이 있어.</p>
+            <div class="time-card">
+                <h3>1. 나이 제한 확인</h3>
+                <p>대부분 만 19세 이상 이용 가능하지만, 가끔 21세 이상인 곳도 있어. 입장 시 신분증을 요구할 수 있으니 꼭 지참해.</p>
+            </div>
+            <div class="time-card">
+                <h3>2. 드레스 코드 (가끔 있음)</h3>
+                <p>문래동 클럽들은 대체로 자유로운 편이야. 다만 특별 이벤트나 특정 테마의 날에는 드레스 코드를 요구할 수도 있으니 미리 확인하는 게 좋아.</p>
+            </div>
+            <div class="time-card">
+                <h3>3. 입장료 및 음료 가격</h3>
+                <p>대부분 무료 입장이지만, 특별 이벤트나 초대 DJ가 오는 날에는 입장료를 받는 경우가 있어. 음료 가격대도 미리 파악해두면 좋고.</p>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>문래 동네 특성과 클럽 문화</h2>
+            <p>문래동은 예전 공장지대에서 예술과 클럽 문화가 자라난 독특한 공간이야. 그래서 그런지 다른 동네보다 좀 더 <strong>아티스틱하고 실험적인</strong> 분위기의 클럽들이 많아. 이 특성을 이해하면 클럽을 선택하는 데도 도움이 될 거야.</p>
+            <p>근처에 작업실이나 갤러리도 많고, 그래서 그런지 음악적 취향도 더 다양해. 메인스트림 댄스 음악뿐 아니라 하드코어 테크노, 하우스, 심지어 인디 밴드 음악을 틀어주는 곳도 있으니까, 네 취향에 딱 맞는 곳을 찾아보는 재미가 있어.</p>
+        </div>
+
+        <div class="advice-box">
+            <h3>💡 개인적인 경험담</h3>
+            <p>내가 처음 문래동 클럽을 갔을 때는 피크 타임인 새벽 1시쯤에 갔어. 에너지가 넘치긴 했지만, 솔직히 너무 붐벼서 음악이 아니라 사람 구경만 하게 되더라고. 그 뒤로는 평일이나 초반 시간대에 가보니, 오히려 DJs의 음악에 더 집중할 수 있었고, 옆 사람과 대화도 나눌 수 있어서 더 좋았어. 물론 피크 타임의 그 떨리는 분위기를 즐기고 싶다면 그건 그대로의 매력이 있고.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="/guide">이용 안내</a>
+            <a href="/time-guide">시간대 선택</a>
+            <a href="/faq">자주 묻는 질문</a>
+            <a href="/contact">문의하기</a>
+        </div>
+        <p>© 2023 문래 클럽 노트. 문래동 클럽 문화 정보 제공.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem; color: #666;">본 정보는 일반적인 운영 패턴을 기반으로 작성되었으며, 각 클럽별로 상이할 수 있습니다. 방문 전 반드시 해당 클럽의 공식 채널을 통해 최신 정보를 확인하시기 바랍니다.</p>
+    </footer>
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileNav = document.getElementById('mobileNav');
+        menuToggle.addEventListener('click', () => {
+            mobileNav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
